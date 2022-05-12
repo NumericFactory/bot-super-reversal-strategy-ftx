@@ -1,6 +1,6 @@
 import sys
 
-sys.path.append("./live_tools")
+sys.path.append("./bot-super-reversal-strategy-ftx")
 import ccxt
 import ta
 import pandas as pd
@@ -11,7 +11,7 @@ import time
 import json
 
 f = open(
-    "./live_tools/secret.json",
+    "./bot-super-reversal-strategy-ftx/secret.json",
 )
 secret = json.load(f)
 f.close()
